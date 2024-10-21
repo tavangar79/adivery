@@ -1,87 +1,100 @@
-## [2.7.0] 2024/08/26
+# 4.6.1
 
-* [support Objective-C project with Podfile no use_frameworks](https://github.com/operando/advertising_id/pull/27)
-* [Remove references to deprecated v1 Android embedding](https://github.com/operando/advertising_id/pull/49)
-* [Delete buildTypes release](https://github.com/operando/advertising_id/pull/50)
-* [Add Privacy manifest file](https://github.com/operando/advertising_id/pull/51)
-* Update versions
-  * Android Gradle Plugin
-  * compileSdkVersion
-  * Gradle
-  * play-services-ads-identifier
+* migrate example to null-safety
 
+# 4.6.0
 
-## [2.6.0] 2023-12-05
+* fix loading ads when one placement is disabled.
+* changed ad loading policy and added ability to stop sending request when it's not needed.
+* update adivery to version 4.6.0
 
-* Changed the library used from play-services-analytics to play-services-ads-identifier
+# 4.5.2
 
+* fix loading multiple ads from multiple networkds.
+* update to adivery version 4.5.2
 
-## [2.5.0] 2023-08-11
+# 4.2.10
 
-* [AGP 8.X Support](https://github.com/operando/advertising_id/pull/37)
-* Update dart SDK constraint
+* fix native ad method channels
 
+# 4.2.9
 
-## [2.4.0] 2023-01-26
+* fix native ad issues
+* update to lates sdk version
 
-* Update versions
-  * kotlin
-  * Android Gradle Plugin
-  * compileSdkVersion
-  * play-services-analytics
+# 4.2.0
 
-## [2.3.0] 2022-05-24
+* update to latest adivery sdk
+* improve video ads
+* fix bugs
 
-* [Fix type mismatch](https://github.com/operando/advertising_id/pull/30)
-* [Update Android dependency lib version](https://github.com/operando/advertising_id/pull/31)
-  * kotlin
-  * Android Gradle Plugin
+# 4.1.4
 
-## [2.2.0] 2022-02-11
+* update to latest sdk version
+* support for 2 more ad networks
+* fix network request rate
 
-* [Update Android dependency lib version](https://github.com/operando/advertising_id/pull/26)
-  * kotlin
-  * Android Gradle Plugin
-  * compileSdkVersion
-  * play-services-analytics
+# 4.1.0
 
-## [2.1.1] 2021-11-05
+* update to latest Adivery SDK
+* add support to 3 more ad networks
+* fix sdk request rate
+* update video ads layout
 
-* [Fix isLimitAdTrackingEnabled ios #22](https://github.com/operando/advertising_id/pull/22)
+# 4.0.5
 
+* fix crash on native loadAd.
 
-## [2.1.0] 2021-10-27
+# 4.0.4
 
-* [Update Android dependency lib version](https://github.com/operando/advertising_id/pull/18)
-  * kotlin
-  * Android Gradle Plugin
-  * compileSdkVersion
-  * play-services-analytics
+* fix crash on apps that have background service.
 
-## [2.0.0] 2021-04-21
+# 4.0.3
 
-* [Supported the new Android plugins APIs](https://github.com/operando/advertising_id/pull/7)
-* [Support AndroidX](https://github.com/operando/advertising_id/pull/11)
-* [Support Null safety](https://github.com/operando/advertising_id/pull/12) 
+* fix crash on projects without androidX.
 
-## [1.1.0] 2021-02-04
+# 4.0.2
 
-* Add iOS 14 support to get IDFA
+* fix admob banner
 
-## [1.0.0] 2020-06-07
+# 4.0.1
 
-* Update versions
-* Add isLimitAdTrackingEnabled variable
+* migrate to null safety
 
-## [0.9.2] 2019-07-11
+# 4.0.0
 
-* Fix
-  * [Call methods of `Result` on UI thread](https://github.com/operando/advertising_id/pull/3)
+* Auto reload ads
+* Simple implementation and callbacks
+* Bug fix
+* Update to Adivery SDK version 4.0.0
 
-## [0.9.1] 2018-04-18
+# 3.4.0
 
-* Update versions
+* Update to version 3.4.1 of adivery
+* Fix requesting ads multiple times
 
-## [0.9.0] 2018-04-18
+# 3.3.0
 
-* First release
+* Updated to version 3.3.2 of adivery
+* Fix versioning that matches adivery sdk versioning.
+
+# 1.0.3
+
+* Updated to latest Adivery SDK
+* Removed record impression methon from native ad
+
+# 1.0.2
+
+* Fix plugin's record impression on native ad
+
+# 1.0.1
+
+* Fix plugin's context passing issue
+
+# 1.0.0
+
+* Adivery in flutter projects
+* BannerAd
+* InterstitialAd
+* RewardedAd
+* NativeAd
